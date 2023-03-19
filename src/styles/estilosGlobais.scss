@@ -1,0 +1,8 @@
+@import-normalize;
+@import './variaveis';
+
+@import '../paginas/PaginaInicial/paginaInicial.scss';
+@import '../componentes/Sol/sol.scss';
+@import '../componentes/Planetas/animacao-planetas.scss';
+@import '../componentes/Planetas/planetas.scss';
+@import '../componentes/Lua/lua.scss'
