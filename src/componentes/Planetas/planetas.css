@@ -1,0 +1,48 @@
+.planeta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.planeta .img {
+  border-radius: 50%;
+}
+.planeta .mercury_img {
+  width: 100%;
+}
+.planeta .venus_img {
+  width: 200%;
+}
+
+.mercury {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: -4px 2px 56px #f9c05f;
+  left: 43%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  animation: orbit2 2s linear infinite;
+}
+
+.mercury-outline {
+  height: 140px;
+  width: 140px;
+}
+
+.venus {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: -4px 2px 56px #c1aa81;
+  left: 40%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  animation: orbit3 10s linear infinite;
+}
+
+.venus-outline {
+  height: 200px;
+  width: 200px;
+}/*# sourceMappingURL=planetas.css.map */
